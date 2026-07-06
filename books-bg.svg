@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="210" viewBox="0 0 380 210">
+  <!-- faint antique bookshelf watermark: one shelf row, tiles seamlessly -->
+
+  <!-- book spines (muted leather tones) -->
+  <g>
+    <rect x="6"   y="48" width="26" height="120" rx="2" fill="rgba(150,120,80,0.075)"/>
+    <rect x="34"  y="40" width="20" height="128" rx="2" fill="rgba(95,72,50,0.085)"/>
+    <rect x="56"  y="56" width="30" height="112" rx="2" fill="rgba(122,62,56,0.08)"/>
+    <rect x="88"  y="46" width="18" height="122" rx="2" fill="rgba(183,168,136,0.07)"/>
+    <rect x="108" y="38" width="24" height="130" rx="2" fill="rgba(112,112,82,0.075)"/>
+    <rect x="134" y="58" width="28" height="110" rx="2" fill="rgba(95,72,50,0.085)"/>
+    <rect x="164" y="50" width="16" height="118" rx="2" fill="rgba(150,120,80,0.075)"/>
+    <rect x="182" y="42" width="26" height="126" rx="2" fill="rgba(122,62,56,0.08)"/>
+    <rect x="210" y="52" width="22" height="116" rx="2" fill="rgba(183,168,136,0.07)"/>
+    <!-- leaning book -->
+    <g transform="translate(240 168) rotate(-9)">
+      <rect x="0" y="-116" width="22" height="116" rx="2" fill="rgba(112,112,82,0.08)"/>
+      <rect x="2" y="-104" width="18" height="3" fill="rgba(195,155,58,0.10)"/>
+      <rect x="2" y="-26" width="18" height="2" fill="rgba(195,155,58,0.09)"/>
+    </g>
+    <rect x="268" y="54" width="18" height="114" rx="2" fill="rgba(150,120,80,0.075)"/>
+    <rect x="288" y="44" width="24" height="124" rx="2" fill="rgba(95,72,50,0.085)"/>
+    <rect x="314" y="60" width="28" height="108" rx="2" fill="rgba(122,62,56,0.08)"/>
+    <rect x="344" y="47" width="20" height="121" rx="2" fill="rgba(183,168,136,0.07)"/>
+    <rect x="366" y="52" width="12" height="116" rx="2" fill="rgba(112,112,82,0.075)"/>
+  </g>
+
+  <!-- gilt tooling bands near the head and tail of each spine -->
+  <g fill="rgba(195,155,58,0.11)">
+    <rect x="8"   y="58"  width="22" height="3"/><rect x="8"   y="150" width="22" height="2"/>
+    <rect x="36"  y="50"  width="16" height="3"/><rect x="36"  y="148" width="16" height="2"/>
+    <rect x="58"  y="66"  width="26" height="3"/><rect x="58"  y="152" width="26" height="2"/>
+    <rect x="90"  y="56"  width="14" height="3"/><rect x="90"  y="150" width="14" height="2"/>
+    <rect x="110" y="48"  width="20" height="3"/><rect x="110" y="148" width="20" height="2"/>
+    <rect x="136" y="68"  width="24" height="3"/><rect x="136" y="152" width="24" height="2"/>
+    <rect x="166" y="60"  width="12" height="3"/><rect x="166" y="150" width="12" height="2"/>
+    <rect x="184" y="52"  width="22" height="3"/><rect x="184" y="148" width="22" height="2"/>
+    <rect x="212" y="62"  width="18" height="3"/><rect x="212" y="152" width="18" height="2"/>
+    <rect x="270" y="64"  width="14" height="3"/><rect x="270" y="152" width="14" height="2"/>
+    <rect x="290" y="54"  width="20" height="3"/><rect x="290" y="150" width="20" height="2"/>
+    <rect x="316" y="70"  width="24" height="3"/><rect x="316" y="154" width="24" height="2"/>
+    <rect x="346" y="57"  width="16" height="3"/><rect x="346" y="150" width="16" height="2"/>
+    <rect x="368" y="62"  width="8"  height="3"/><rect x="368" y="152" width="8"  height="2"/>
+  </g>
+
+  <!-- extra tooling: double bands + diamond ornaments on a few spines -->
+  <g fill="rgba(195,155,58,0.08)">
+    <rect x="36"  y="88"  width="16" height="2"/><rect x="36"  y="94" width="16" height="2"/>
+    <rect x="136" y="100" width="24" height="2"/><rect x="136" y="106" width="24" height="2"/>
+    <rect x="290" y="92"  width="20" height="2"/><rect x="290" y="98" width="20" height="2"/>
+    <rect x="67"  y="104" width="8" height="8" transform="rotate(45 71 108)"/>
+    <rect x="191" y="96"  width="8" height="8" transform="rotate(45 195 100)"/>
+    <rect x="350" y="100" width="7" height="7" transform="rotate(45 353.5 103.5)"/>
+  </g>
+
+  <!-- shelf plank with a soft top highlight -->
+  <rect x="0" y="168" width="380" height="14" fill="rgba(0,0,0,0.18)"/>
+  <rect x="0" y="168" width="380" height="1.5" fill="rgba(234,223,198,0.04)"/>
+  <rect x="0" y="182" width="380" height="3" fill="rgba(0,0,0,0.10)"/>
+</svg>
