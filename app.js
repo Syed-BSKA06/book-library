@@ -103,9 +103,7 @@ function renderGreeting() {
   const shelf = name ? `${possessive(name)} Shelf` : "My Shelf";
   els.brandName.textContent = shelf;
   document.title = `${shelf} · a cozy book library`;
-  els.footerNote.innerHTML = name
-    ? `Made with <span aria-hidden="true">❤</span> for ${esc(name)} · your books live safely in this browser — download a backup now and then.`
-    : `Made with <span aria-hidden="true">❤</span> · your books live safely in this browser — download a backup now and then.`;
+  // footer stays as-is in the HTML — it's the gift-giver's signature
 }
 
 function renameOwner() {
